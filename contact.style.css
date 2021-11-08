@@ -44,19 +44,16 @@ ul li{
     font-size: 30px;
 }
   
-  input[type=submit] {
-    background-color: #C09F80;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+ button{
+  background: #C09F80;
+    border: black;
+    outline: none;
+    letter-spacing: 0.08em;
+    padding: 15px 20px;
+}
+button:hover{
+  background-color: #45a049;
+}
   
   
   .container {
